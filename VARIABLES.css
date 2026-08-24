@@ -1,0 +1,52 @@
+/* ============================================
+   DESIGN TOKENS — do not rename or override.
+   Person 2 & 3: import this file first in every stylesheet.
+   ============================================ */
+
+:root {
+  /* --- Colors --- */
+  --color-primary: #2F5D50;      /* deep forest teal — headings, nav, primary buttons */
+  --color-primary-dark: #1D3B32; /* hover/active states */
+  --color-secondary: #F2E9DC;    /* warm sand — section backgrounds, cards */
+  --color-accent: #B8935A;       /* muted ochre — links, highlights, small accents */
+  --color-text: #1E2D28;         /* body copy */
+  --color-text-muted: #5B6E68;   /* secondary/small text */
+  --color-bg: #FBF9F6;           /* page background */
+  --color-white: #FFFFFF;
+  --color-error: #B3403A;
+  --color-success: #4C7A63;
+
+  /* --- Fonts --- */
+  --font-display: 'Fraunces', Georgia, serif;   /* headings — warm, characterful serif */
+  --font-body: 'Karla', Arial, sans-serif;       /* body copy, UI text */
+
+  /* --- Type scale --- */
+  --text-h1: clamp(2.25rem, 5vw, 3.75rem);
+  --text-h2: clamp(1.75rem, 3.5vw, 2.5rem);
+  --text-h3: 1.375rem;
+  --text-body: 1rem;
+  --text-small: 0.875rem;
+
+  /* --- Spacing scale --- */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 64px;
+  --space-xl: 96px;
+
+  /* --- Shape / effects --- */
+  --radius: 10px;
+  --radius-lg: 28px;
+  --shadow-soft: 0 8px 24px rgba(29, 59, 50, 0.10);
+  --shadow-hover: 0 12px 32px rgba(29, 59, 50, 0.16);
+
+  /* --- Layout --- */
+  --container-width: 1140px;
+  --navbar-height: 76px;
+
+  /* --- Breakpoints (reference only, use in media queries manually) ---
+     mobile:  up to 480px
+     tablet:  481px – 768px
+     desktop: 769px and up
+  */
+}
